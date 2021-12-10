@@ -1,0 +1,25 @@
+.links {
+    background-color: #4abebd;
+    display: grid;
+    grid-template-rows: 4rem repeat(7, 2rem);
+    padding: 2.2rem 0.5rem 0rem 3rem;
+    align-content: flex-start;
+
+
+
+    &__heading {
+        color: #f7fefe;
+        font-size: 1.8rem;
+    }
+
+    &__text {
+        text-decoration: none;
+        color: #8ad8db;
+        font-size: 1.4rem;
+    }
+
+    &__text:hover,
+    &__text:active {
+        color: #90E6E9;
+    }
+}

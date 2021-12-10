@@ -18,6 +18,7 @@ body {
     font-weight: 400;
     display: flex;
     color: #757473;
+    background-color: #f0f0f0;
 }
 
 //Overall layout
@@ -31,6 +32,7 @@ body {
 
 
 .component {
+    overflow:hidden;
     background-color: hsl(204, 43%, 93%);
     margin-top: 15rem;
     width: 70rem;
