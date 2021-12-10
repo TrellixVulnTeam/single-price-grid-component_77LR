@@ -1,9 +1,9 @@
 .hero {
-    background-color: #FFFFFF;
+    background-color: #ffff;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: auto;
-    padding: 2.5rem 3rem 4rem 3rem;
+    padding: 3.5rem 3rem 4rem 3rem;
 
 
     &__title {

@@ -49,6 +49,14 @@ body {
     box-shadow: 0 1.5rem 2.4rem rgba(0,0,0,0.4);
 }
 
+.lower-half{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:auto;
+    
+}
+
+
 footer{
     align-content:flex-end;
     justify-self:center;

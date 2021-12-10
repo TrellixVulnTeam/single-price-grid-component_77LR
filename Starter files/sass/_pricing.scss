@@ -1,0 +1,61 @@
+.pricing {
+    background-color: #2bb3b1;
+    color: #f7fefe;
+    overflow: hidden;
+    display: grid;
+    grid-gap: 0.6rem;
+    overflow: hidden;
+    grid-template-rows: repeat(5, 1fr);
+    padding: 2.3rem 0.5rem 0rem 3rem;
+    border-radius: 0 0 0 1.5rem;
+
+    &__heading {
+        font-size: 1.8rem;
+    }
+
+    &__tag {
+        display: flex;
+    }
+
+    &__price {
+        font-size: 2.7rem;
+        margin-right: 1rem;
+    }
+
+    &__perMonth {
+        font-weight: 100;
+        font-size: 1.4rem;
+        justify-self: center;
+        align-self: center;
+    }
+
+    &__paragraph {
+        font-weight: 100;
+        font-size: 1.7rem;
+        justify-content:center;
+    }
+
+    &__btn {
+        color: #f7fefe;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: #C0DF34;
+        width: 25rem;
+        height: 4.5rem;
+        border: 1px solid #C0DF34;
+        border-radius: 1rem;
+        box-shadow: 0 0.7rem 0.3rem rgba(70, 70, 70, 0.56);
+    }
+
+    &__btn:hover {
+        background-color: #C0D049;
+        cursor: pointer;
+        transform: translateY(-3px);
+    }
+
+    &__btn:active {
+        background-color: #C0D049;
+        cursor: pointer;
+        transform: translateY(1px);
+    }
+}
