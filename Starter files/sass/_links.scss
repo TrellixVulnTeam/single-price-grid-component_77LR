@@ -1,25 +1,30 @@
 .links {
-    background-color: #4abebd;
+    background-color: $light-green;
     display: grid;
     grid-template-rows: 4rem repeat(7, 2rem);
     padding: 2.2rem 0.5rem 0rem 3rem;
     align-content: flex-start;
 
+    @media only screen and (max-width:$bp-small) {
+        grid-column:1/4;
+        grid-row:2/span 3;
+        justify-content:start;
+        padding:2rem 4.7rem;
+        }
 
+        &__heading {
+            color: $color-white;
+            font-size: 1.8rem;
+        }
 
-    &__heading {
-        color: #f7fefe;
-        font-size: 1.8rem;
+        &__text {
+            text-decoration: none;
+            color: #8ad8db;
+            font-size: 1.4rem;
+        }
+
+        &__text:hover,
+        &__text:active {
+            color: #90E6E9;
+        }
     }
-
-    &__text {
-        text-decoration: none;
-        color: #8ad8db;
-        font-size: 1.4rem;
-    }
-
-    &__text:hover,
-    &__text:active {
-        color: #90E6E9;
-    }
-}

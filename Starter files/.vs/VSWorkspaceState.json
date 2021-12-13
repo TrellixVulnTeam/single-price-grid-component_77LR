@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
     "\\images",
     "\\sass"
   ],
+  "SelectedNode": "\\sass\\_pricing.scss",
   "PreviewInSolutionExplorer": false
 }
